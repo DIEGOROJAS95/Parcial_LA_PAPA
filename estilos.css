@@ -1,0 +1,104 @@
+*{
+    --color1:#8C1C25;
+    --color2:#6F456B;
+    --color3:#5A5B3B;
+}
+#fondo{
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%,-50%);
+    filter: contrast(60%);
+}
+#principal{
+    width: 600px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#principal h1{font-family: "Galada", cursive;}
+#menu{
+    display: flex;
+    justify-content: center;
+}
+#menu li{
+    list-style-type: none;
+    margin: 5px;
+}
+#menu li a{
+    text-decoration:none;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#menu li a:hover{
+    opacity: 0.5 ;  
+}
+i{
+    font-size: 35px;
+    margin: 10px;
+}
+i:hover{
+    opacity: 0.5;
+}
+main{
+    width: 75%;
+    border: 1px solid red;
+    height: auto;
+    margin: auto;
+}
+header{
+    background-color:var(--color1);
+    position: sticky;
+    top: 0;
+}
+header h1:hover{opacity: 0.5;}
+header h1 a{text-decoration: none;color: white; font-family: "Galada", cursive;}
+#galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+figure{
+    text-align: center;
+    padding: 10px;;
+}
+figure:hover{
+    opacity: 0.5;
+}
+figure img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 5px gray;
+
+}
+figcaption{
+    padding: 15px;
+    font-size: 25px;
+    color: #5A5B3B;
+}
+#YT , #mivideo{
+    text-align: center;
+    padding: 15px;
+}
+footer{margin: 10px;padding: 15px;}
+#redes{text-align: center;font-size: 25px;}
+h1{text-align: center;font-size: 50px;color: white;}
+h2{margin: 10px;text-align: center; color: var(--color2);font-size: 20px;}
+h4{margin: 10px;color: #5A5B3B;}
+p{
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+    color: gray;
+}
+#imagenblog{text-align: center;}
+#logocultivo{float: left;padding: 10px;}
+#logoproduccion{float: right;padding: 10px;}
